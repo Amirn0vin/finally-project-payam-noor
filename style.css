@@ -1,0 +1,121 @@
+
+@import url('https://fonts.cdnfonts.com/css/iranian-sans');
+/* Webfont: Yekan */
+@font-face {
+	font-family: 'Yekan';
+	src:	url('Yekan.eot'); /* IE9 Compat Modes */
+	src:	url('Yekan.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+			url('Yekan.woff2') format('woff2'), /* Modern Browsers */
+			url('Yekan.woff') format('woff'), /* Modern Browsers */
+			url('Yekan.otf') format('opentype'), /* Open Type Font */	
+			url('Yekan.ttf') format('truetype'); /* Safari, Android, iOS */
+	font-weight: normal;
+	font-style: normal;
+	text-rendering: optimizeLegibility;
+	font-display: auto;
+}       
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Iranian Sans' , 'Yekan' ,sans-serif;
+                                                                             
+}
+header {
+  background-color: #555;
+  padding-top:5px ;
+  background-image: url(/images/payame-noor-university-vison.jpg);
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-blend-mode: soft-light;
+  width: 100%;
+  color: #fff;
+  /* padding: 20px; */
+  text-align: center;
+}
+.header-h1{
+  margin: 100px auto;
+  /* color: black; */
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+section {
+  flex: 0 0 300px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 0;
+}
+.my-button {
+  border: none;
+outline: 0;
+display: inline-block;
+padding: 8px;
+color: white;
+text-align: center;
+cursor: pointer;
+width: 85%;
+left: 25px;
+bottom: 10px;
+background-color: #04AA6D;
+border-radius: 1;
+color: black;
+border-radius: 14px;
+}
+
+.my-button:hover {
+background-color: #555;
+color: #ddd;}
+
+footer {
+  background-color:#0B6623;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  /* width: 100%; */
+}
+.img-profile-ostad{
+  width: 400px;
+  height:250px;
+}
+.header-img{
+  margin-top: -80px;
+}
+section a{
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+.mail{
+  color: #0000FE;
+}
+.mail i{
+  color: #555;
+}
